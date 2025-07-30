@@ -1,0 +1,3 @@
+{
+    "jdk.runConfig.env": "SPRING_PROFILES_ACTIVE=dev"
+}
