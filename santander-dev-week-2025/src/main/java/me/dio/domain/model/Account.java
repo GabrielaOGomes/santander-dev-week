@@ -26,10 +26,10 @@ public class Account {
     // "balance" e "limit" são do tipo numérico com precisão de 2
     // dígitos antes do ponto decimal e 13 dígitos após o ponto decimal.
     // Isso é útil para armazenar valores monetários com alta precisão.
-    @Column(precision = 2, scale = 13)
+    @Column(precision = 13, scale = 2)
     private String balance;
 
-    @Column(name = "Additional_limit", precision = 2, scale = 13)
+    @Column(name = "Additional_limit", precision = 13, scale = 2)
     private String limit;
 
     public Account() {

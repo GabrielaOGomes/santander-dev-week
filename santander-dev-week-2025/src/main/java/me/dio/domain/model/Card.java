@@ -16,7 +16,7 @@ public class Card {
     @Column(unique = true)
     private String number;
 
-    @Column(name = "avaliable_limit", precision = 2, scale = 13)
+    @Column(name = "avaliable_limit", precision = 13, scale = 2)
     private String limit;
 
     public Card() {
