@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Executar Spring Boot",
+            "request": "launch",
+            "mainClass": "me.dio.Application",
+            "projectName": "santander-dev-week-2025",
+            "args": "--spring.profiles.active=dev",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
