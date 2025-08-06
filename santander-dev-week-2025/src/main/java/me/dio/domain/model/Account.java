@@ -35,7 +35,8 @@ public class Account {
     public Account() {
     }
 
-    public Account(String number, String agency, String balance, String limit) {
+    public Account(Long id, String number, String agency, String balance, String limit) {
+        this.id = id;
         this.number = number;
         this.agency = agency;
         this.balance = balance;

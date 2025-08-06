@@ -8,7 +8,6 @@ import me.dio.domain.model.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
 
-    // Define custom query methods if needed
-    // For example, findByEmail(String email);
-    // Note: JpaRepository provides basic CRUD operations out of the box    
+    //Assinatura de método para verificar se o número da conta já existe
+    boolean existsByAccountNumber(String accountNumber);
 }
